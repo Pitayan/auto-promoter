@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "init": "deno cache deps.ts",
+    "serve": "deno run --allow-read --allow-net script/serve.ts",
+    "start": "deno run --allow-net --allow-read --allow-run --allow-write --allow-env script/start.ts",
+    "build": "mkdir -p dist && deno run --allow-run --allow-write --allow-read --allow-env --allow-net script/build.ts",
+    "dev": "mkdir -p dist && deno run --allow-run --allow-write --allow-read --allow-env --allow-net script/dev.ts"
+  }
+}
