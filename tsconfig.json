@@ -1,5 +1,21 @@
 {
+  "include": ["./src/**/*.ts"],
   "compilerOptions": {
-    "lib": [ "dom", "deno.ns" ]
-  }
+		"lib": ["es2023", "dom"],
+		"module": "nodenext",
+		"target": "es5",
+		"moduleResolution": "nodenext",
+		"rootDir": "./src",
+		"outDir": "build",
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"declaration": true,
+		"resolveJsonModule": true,
+		"emitDeclarationOnly": true,
+		"allowImportingTsExtensions": true
+	}
 }

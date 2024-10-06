@@ -1,0 +1,15 @@
+{
+  "name": "project",
+  "type": "module",
+  "scripts": {
+    "build": "rolldown -c",
+    "lint": "oxlint --jest-plugin -D correctness -W suspicious -D no-await-in-loop -D no-accumulating-spread -D no-var-requires -D no-var -D throw-new-error",
+    "format": ""
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.3",
+    "oxlint": "^0.9.9",
+    "rolldown": "^0.13.2",
+    "typescript": "^5.6.2"
+  }
+}
