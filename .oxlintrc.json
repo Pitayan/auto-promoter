@@ -1,18 +1,18 @@
 {
-  "env": {
-    "browser": true
-  },
-  "globals": {
-    "foo": "readonly"
-  },
-  "settings": {},
-  "rules": {
-    "eqeqeq": "warn",
-    "import/no-cycle": "error",
-    "no-wait-in-loop": "error",
-    "no-accumulating-spread": "error",
-    "no-var-requires": "error",
-    "no-var": "error",
-    "throw-new-error": "error"
-  }
+	"env": {
+		"browser": true
+	},
+	"globals": {
+		"foo": "readonly"
+	},
+	"settings": {},
+	"rules": {
+		"eqeqeq": "warn",
+		"import/no-cycle": "error",
+		"no-wait-in-loop": "error",
+		"no-accumulating-spread": "error",
+		"no-var-requires": "error",
+		"no-var": "error",
+		"throw-new-error": "error"
+	}
 }
